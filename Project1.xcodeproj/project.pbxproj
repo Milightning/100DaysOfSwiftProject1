@@ -12,6 +12,10 @@
 		C1D7F2F92219E56800CF2DEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D7F2F72219E56800CF2DEC /* Main.storyboard */; };
 		C1D7F2FB2219E56A00CF2DEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1D7F2FA2219E56A00CF2DEC /* Assets.xcassets */; };
 		C1D7F2FE2219E56A00CF2DEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1D7F2FC2219E56A00CF2DEC /* LaunchScreen.storyboard */; };
+		C1D7F30A2219F0A400CF2DEC /* img01.png in Resources */ = {isa = PBXBuildFile; fileRef = C1D7F3062219F0A300CF2DEC /* img01.png */; };
+		C1D7F30B2219F0A400CF2DEC /* img02.png in Resources */ = {isa = PBXBuildFile; fileRef = C1D7F3072219F0A300CF2DEC /* img02.png */; };
+		C1D7F30C2219F0A400CF2DEC /* img03.png in Resources */ = {isa = PBXBuildFile; fileRef = C1D7F3082219F0A300CF2DEC /* img03.png */; };
+		C1D7F30D2219F0A400CF2DEC /* img04.png in Resources */ = {isa = PBXBuildFile; fileRef = C1D7F3092219F0A300CF2DEC /* img04.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		C1D7F2FA2219E56A00CF2DEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C1D7F2FD2219E56A00CF2DEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C1D7F2FF2219E56A00CF2DEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1D7F3062219F0A300CF2DEC /* img01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img01.png; sourceTree = "<group>"; };
+		C1D7F3072219F0A300CF2DEC /* img02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img02.png; sourceTree = "<group>"; };
+		C1D7F3082219F0A300CF2DEC /* img03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img03.png; sourceTree = "<group>"; };
+		C1D7F3092219F0A300CF2DEC /* img04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img04.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +68,20 @@
 				C1D7F2FA2219E56A00CF2DEC /* Assets.xcassets */,
 				C1D7F2FC2219E56A00CF2DEC /* LaunchScreen.storyboard */,
 				C1D7F2FF2219E56A00CF2DEC /* Info.plist */,
+				C1D7F3052219F0A300CF2DEC /* Content */,
 			);
 			path = Project1;
+			sourceTree = "<group>";
+		};
+		C1D7F3052219F0A300CF2DEC /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				C1D7F3062219F0A300CF2DEC /* img01.png */,
+				C1D7F3072219F0A300CF2DEC /* img02.png */,
+				C1D7F3082219F0A300CF2DEC /* img03.png */,
+				C1D7F3092219F0A300CF2DEC /* img04.png */,
+			);
+			path = Content;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +145,10 @@
 				C1D7F2FE2219E56A00CF2DEC /* LaunchScreen.storyboard in Resources */,
 				C1D7F2FB2219E56A00CF2DEC /* Assets.xcassets in Resources */,
 				C1D7F2F92219E56800CF2DEC /* Main.storyboard in Resources */,
+				C1D7F30C2219F0A400CF2DEC /* img03.png in Resources */,
+				C1D7F30D2219F0A400CF2DEC /* img04.png in Resources */,
+				C1D7F30A2219F0A400CF2DEC /* img01.png in Resources */,
+				C1D7F30B2219F0A400CF2DEC /* img02.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Q32GUKLS4;
 				INFOPLIST_FILE = Project1/Info.plist;
@@ -291,6 +316,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.catherine.Project1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8Q32GUKLS4;
 				INFOPLIST_FILE = Project1/Info.plist;
@@ -309,6 +336,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.catherine.Project1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
